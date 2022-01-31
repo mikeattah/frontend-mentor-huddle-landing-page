@@ -3,22 +3,17 @@
   box-sizing: border-box;
 }
 body {
-  width: 98vw;
+  height: 120vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #674aae;
   background-image: url(images/bg-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 0;
-  margin: 0;
-}
-.container {
-  height: 120vh;
-  width: 98vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 0;
   margin: 0;
 }
@@ -106,11 +101,11 @@ body {
   justify-content: flex-end;
   color: #fff;
   margin: 0;
-  padding: 0 8%;
+  padding: 0 10%;
 }
 .fa-facebook-square,
-.fa-instagram,
-.fa-twitter {
+.fa-instagram-square,
+.fa-twitter-square {
   color: #fff;
   margin: 0 12px;
 }

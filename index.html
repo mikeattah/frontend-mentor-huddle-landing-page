@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="hydrated" lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
 
     <link
       rel="icon"
@@ -12,33 +13,18 @@
       href="./images/favicon-32x32.png"
     />
 
-    <!-- Font Awesome 4 -->
+    <!-- font awesome 5 kit -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Font Awesome 5 -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <!-- jQuery Library & File, always update file -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="practicescript003.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Your personal font awesome 5 kit: -->
-    <script
-      src="https://kit.fontawesome.com/ddc4c3e78e.js"
-      crossorigin="anonymous"
-    ></script>
+
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,46 +35,53 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="logo-container">
-        <img class="logo" src="./images/logo.svg" alt="huddle logo" />
-      </div>
-      <div class="body-container">
-        <div class="section-one">
-          <img
-            src="./images/illustration-mockups.svg"
-            alt="illustration mockups"
-            class="mockups"
-          />
-        </div>
-        <div class="section-two">
-          <h2 class="title">Build The Community Your Fans Will Love</h2>
-          <p class="text">
-            Huddle re-imagines the way we build communities. You have a voice,
-            but so does your audience. Create connections with your users as you
-            engage in genuine discussion.
-          </p>
-          <button class="bttn">Register</button>
-        </div>
-      </div>
-      <div class="social-media-container">
-        <i class="fa fa-facebook-square circle-icon" aria-hidden="true"></i>
-        <i class="fa fa-twitter circle-icon" aria-hidden="true"></i>
-        <i class="fa fa-instagram circle-icon" aria-hidden="true"></i>
-      </div>
-      <footer class="attr-container">
-        <p class="attr">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a href="https://twitter.com/miikeattah" target="_blank">Mike Attah</a
-          >.
+    <header class="logo-container">
+      <img class="logo" src="./images/logo.svg" alt="huddle logo" />
+    </header>
+    <main class="body-container">
+      <section class="section-one">
+        <img
+          src="./images/illustration-mockups.svg"
+          alt="illustration mockups"
+          class="mockups"
+        />
+      </section>
+      <section class="section-two">
+        <h1 class="title">Build The Community Your Fans Will Love</h1>
+        <p class="text">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
         </p>
-      </footer>
-    </div>
+        <button class="bttn" type="button">Register</button>
+      </section>
+    </main>
+    <aside class="social-media-container">
+      <i class="fab fa-facebook-square circle-icon" aria-hidden="true"></i>
+      <i class="fab fa-twitter-square circle-icon" aria-hidden="true"></i>
+      <i class="fab fa-instagram-square circle-icon" aria-hidden="true"></i>
+    </aside>
+    <footer class="attr-container">
+      <p class="attr">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://twitter.com/miikeattah"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mike Attah</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
