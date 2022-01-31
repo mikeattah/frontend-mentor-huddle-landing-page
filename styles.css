@@ -110,8 +110,8 @@ body {
   margin: 0 12px;
 }
 .fa-facebook-square:hover,
-.fa-instagram:hover,
-.fa-twitter:hover {
+.fa-instagram-square:hover,
+.fa-twitter-square:hover {
   cursor: pointer;
   color: #e882e8;
 }
@@ -124,7 +124,7 @@ body {
 }
 .circle-icon:hover {
   cursor: pointer;
-  border: 1.5px solid #e882e8;
+  border: 1px solid #e882e8;
 }
 .attr-container {
   height: 5%;
