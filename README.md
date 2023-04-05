@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-incl-flexbox-NR_bNsMTK)
-- Live Site URL: [GitHub Pages](https://mikeattah.github.io/huddle-landing-page/)
+- Live Site URL: [GitHub Pages](https://mikeattah.github.io/frontend-mentor-huddle-landing-page/)
 
 ## My process
 
